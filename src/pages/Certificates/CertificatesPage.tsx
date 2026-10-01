@@ -64,7 +64,7 @@ export const CertificatesPage: React.FC = () => {
                     <Award className="w-5 h-5" />
                   </div>
                   <span className="text-xs font-bold uppercase tracking-wider text-indigo-200">
-                    LearnHub Verified
+                    SAPIORA Verified
                   </span>
                 </div>
                 <span className="text-[10px] font-mono bg-black/30 px-2 py-0.5 rounded text-indigo-200">
@@ -146,7 +146,7 @@ export const CertificatesPage: React.FC = () => {
           <div>
             <h4 className="text-sm font-bold text-slate-900">Cryptographically Verifiable</h4>
             <p className="text-xs text-slate-600">
-              All LearnHub course completion credentials feature a permanent verification ID for inclusion in LinkedIn and academic resumes.
+              All SAPIORA course completion credentials feature a permanent verification ID for inclusion in LinkedIn and academic resumes.
             </p>
           </div>
         </div>

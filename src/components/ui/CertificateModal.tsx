@@ -24,7 +24,7 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({
   };
 
   const handleCopyLink = () => {
-    navigator.clipboard?.writeText?.(`https://learnhub.edu/verify/${certificate.credentialId}`);
+    navigator.clipboard?.writeText?.(`https://sapiora.edu/verify/${certificate.credentialId}`);
     showToast('Link Copied', 'Credential verification URL copied to clipboard.', 'success');
   };
 
@@ -46,9 +46,9 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({
               <Award className="w-6 h-6" />
             </div>
             <div className="text-left">
-              <div className="text-xl font-bold tracking-tight text-slate-900 leading-none">LearnHub</div>
+              <div className="text-xl font-bold tracking-tight text-slate-900 leading-none">SAPIORA</div>
               <div className="text-[10px] tracking-widest uppercase font-semibold text-indigo-600">
-                Academy of Computing
+                Academic Intelligence
               </div>
             </div>
           </div>

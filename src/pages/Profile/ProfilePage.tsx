@@ -92,7 +92,7 @@ export const ProfilePage: React.FC = () => {
               Courses Completed
             </span>
             <span className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-              {user.completedCount || 6}
+              {user.completedCount}
             </span>
             <p className="text-[11px] text-emerald-600 font-medium mt-0.5">Across CS tracks</p>
           </div>
